@@ -1,0 +1,54 @@
+# Ignore file for 4D Projects
+
+/Data/*
+/Logs/*
+/Project/DerivedData/*
+/Project/BuildSettings/*
+/Settings/*
+/userPreferences*/*
+
+# My own suggestions (WS)
+/Builds/*
+/Components/*
+*.4DD
+*.4DIndx
+*.4DSettings
+
+# Thomas Maul Additions
+######################
+*symbols.txt
+*.4DIndy
+*.4DB
+*.4db
+*.4dd
+*.journal
+Data
+Folder_Reports
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Stuff
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
