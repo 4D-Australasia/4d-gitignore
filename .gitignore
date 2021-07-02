@@ -12,7 +12,6 @@
 /Components/*
 *.4DD
 *.4DIndx
-*.4DSettings
 
 # Thomas Maul Additions
 ######################
@@ -36,7 +35,7 @@ ehthumbs.db
 Thumbs.db
 
 # IDE Stuff
-# IDEs and editors
+# IDEA
 /.idea
 .project
 .classpath
@@ -45,7 +44,7 @@ Thumbs.db
 .settings/
 *.sublime-workspace
 
-# IDE - VSCode
+# VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
