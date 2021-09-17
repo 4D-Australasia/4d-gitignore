@@ -1,48 +1,64 @@
 # Ignore file for 4D Projects
+#
+# git version 1.8.2 or higher
+#
+# For more info see https://git-scm.com/docs/gitignore
+#
+# Assumes git preferences has been set to not be case sensitive
+# 
+# To make git ignore case, run
+# git config core.ignorecase true
+#
+# or globally
+# git config --global core.ignorecase true
 
-# User Preferences
-userPreferences.*
-userPreferences*/*
+# User Preferences #
+####################
+**/userPreferences.*
+**/userPreferences*/*
 
-# Trash
-Trash
-Trash/
+# Trash #
+#########
+**/Trash
 
-# Derived Data
-DerivedData/
+# Derived Data #
+################
+**/DerivedData
 
-# Data Files
+# Logs #
+########
+**/Logs
+
+# Data Files #
+##############
+**/Data
+
+# 4D Data files 
 *.4dd
-*.4DD
 *.4DIndx
-*.4DINDX
+*.4DIndy
 
 # Logs
-Logs
-Logs/
+**/Logs
 
 # Match Files
 *.Match
-*.MATCH
 
-# # My own suggestions (WS)
-# /Builds/*
+# Backup #
+##########
 
-# Resorces
-#Resources
-#Resources/
-
-# Plugins
-#Plugins
-#Plugins/
-
-# Thomas Maul Additions
-######################
-*symbols.txt
-*.4DIndy
-# *.4DB
-# *.4db
+**/Backup
 *.journal
+
+# Symbols #
+###########
+*symbols.txt
+
+# 4D Go Mobile #
+################
+**/Replaced Files *
+**/Converted Files *
+
 
 # OS generated files #
 ######################
@@ -74,11 +90,4 @@ Thumbs.db
 .history/*
 
 
-/Data/*
-/Logs/*
-/Project/BuildSettings/*
-/Settings/*
-/userPreferences*/*
-/Backup/*
-/Folder_Reports/*
 

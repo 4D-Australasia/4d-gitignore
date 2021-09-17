@@ -1,3 +1,5 @@
 # 4D Projects GitIgnore File
 
-This is the standard gitignore file for 4D projects.
+This is an example gitignore file for 4D projects.
+
+More information can be found at https://git-scm.com/docs/gitignore
