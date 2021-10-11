@@ -38,6 +38,9 @@
 *.4DIndx
 *.4DIndy
 
+#Include *.4DIndy in Components
+!/Components/**/*.4DIndy
+
 # Logs
 **/Logs
 
