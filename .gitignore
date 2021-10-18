@@ -38,9 +38,6 @@
 *.4DIndx
 *.4DIndy
 
-#Include *.4DIndy in Components
-!/Components/**/*.4DIndy
-
 # Logs
 **/Logs
 
@@ -61,6 +58,9 @@
 ################
 **/Replaced Files *
 **/Converted Files *
+
+#Include Items in Components
+!/Components/**/*
 
 
 # OS generated files #
@@ -92,5 +92,6 @@ Thumbs.db
 !.vscode/extensions.json
 .history/*
 
+######### End of Standard 4D gitignore
 
 
