@@ -36,7 +36,6 @@
 # 4D Data files 
 *.4dd
 *.4DIndx
-*.4DIndy
 
 # Logs
 **/Logs
@@ -61,7 +60,8 @@
 
 #Include Items in Components
 !/Components/**/*
-
+!/Plugins/**/*
+!/Resources/**/*
 
 # OS generated files #
 ######################
